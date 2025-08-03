@@ -4,7 +4,7 @@ This project demonstrates an advanced prompt engineering technique known as **Ch
 
 ## The Objective
 
-To solve a classic logic puzzle that Large Language Models (LLMs) often get wrong. By comparing a standard prompt with a Chain-of-Thought prompt, this project showcases how to improve the model's underlying reasoning capability.
+To solve a classic logic puzzle that Large Language Models (LLMs) often get wrong. By comparing a standard prompt with a Chain-of-Thought prompt, this project demonstrates how to enhance the model's underlying reasoning capabilities.
 
 ## The Experiment: Standard Prompt vs. Chain-of-Thought
 
@@ -57,10 +57,14 @@ Conclusion
 This experiment shows that a skilled prompt engineer does more than just ask questions. They can strategically structure prompts to guide a model's internal "thought process," significantly improving accuracy for logic, math, and other complex reasoning tasks.
 
 Standard Prompt Result:
-The bat costs $1.00 more than the ball so the total cost is 1.10 + 1.10 = $3.00. The ball costs $3.00 more than the bat so the total cost is $3.00 - $1.00 = $3.00. The answer: 3.
+The bat costs $1.00 more than the ball so the total cost is 1.10 + 1.10 = $3.00. The ball costs $3.00 more than the bat
+so the total cost is $3.00 - $1.00 = $3.00. The answer: 3.
 
 The Chain-of-Thought (CoT) Prompt Result:
-The total cost of the bat and ball is 1.10 + 1.10 = $1.10 The difference in cost is 1.10 + 1.10 = $1.10 The total cost of the bat and ball is 1.10 + 1.10 = $1.10 The total cost of the bat and ball is 1.10 + 1.10 = $1.10 The total cost of the bat and ball is 1.10 + 1.10 = $1.10 The total cost of the bat and ball is 1.10 + 1.10 = $1.10 The total cost of the bat and ball is 1.10 + 1.10 = $1.10 The total cost of the bat and ball is 1.10 + 1.10 = $1.10 The total cost of the bat and ball is 1.10 + 1.10 = $1.10 The total cost of the bat and ball is 1.10 + 1.10 = $1.10 The total cost of the bat and ball is 1.10 + 1.10 = $1.10 The total cost of the bat
+The total cost of the bat and ball is 1.10 + 1.10 = $1.10 The difference in cost is 1.10 + 1.10 = $1.10 The total cost of the bat and ball is 1.10 + 1.10 = $1.10
+The total cost of the bat and ball is 1.10 + 1.10 = $1.10 The total cost of the bat and ball is 1.10 + 1.10 = $1.10 The total cost of the bat and ball is 1.10 + 1.10 = $1.10
+The total cost of the bat and ball is 1.10 + 1.10 = $1.10 The total cost of the bat and ball is 1.10 + 1.10 = $1.10 The total cost of the bat and ball is 1.10 + 1.10 = $1.10
+The total cost of the bat and ball is 1.10 + 1.10 = $1.10 The total cost of the bat and ball is 1.10 + 1.10 = $1.10 The total cost of the bat
 
 
 Technical Details
